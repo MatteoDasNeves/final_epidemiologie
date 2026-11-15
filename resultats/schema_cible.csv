@@ -1,0 +1,21 @@
+variable,type,unite_format,description,source_A,source_B,source_C
+id_patient,texte,-,Identifiant unique du patient,id,patient,id_patient
+hopital,texte,A/B/C,Établissement d'origine (ajouté),ajouté,ajouté,ajouté
+date_entree,date,AAAA-MM-JJ,Date d'admission,date_adm,admit,date_entree
+date_sortie,date,AAAA-MM-JJ,Date de sortie,date_dis,discharge,date_sortie
+duree_sejour,décimal,jours,Durée de séjour,los,stay_days,duree
+age,entier,années,Âge,age,age,age
+sexe,texte,M/F,Sexe,gender,gender,sexe
+poids_kg,décimal,kg,Poids,weight,weight_lb,poids
+taille_cm,entier,cm,Taille,height_m,height_cm,taille
+imc,décimal,kg/m²,IMC calculé = poids / taille² (dérivé),calculé,calculé,calculé
+tabac,entier,0/1,Fumeur,smoker,smoking,tabac
+diabete,entier,0/1,Diabète,diabetes,diab,diabete
+hta,entier,0/1,Hypertension artérielle,hypertension,htn,hta
+reanimation,entier,0/1,Passage en réanimation,icu,icu,reanimation
+rehosp_30j,entier,0/1,Réhospitalisation à 30 jours,readmit30,readmission,rehosp_30j
+deces,entier,0/1,Décès à l'hôpital,death,mortality,deces
+diag,texte,CIM-10,"Diagnostic principal (E11, I10, E11+I10)",diag,diagnosis,diag
+pas,décimal,mmHg,Pression artérielle systolique,sbp,blood_pressure,pas
+creatinine_umol_l,décimal,µmol/L,Créatinine (convertie depuis mg/dL),creatinine,creat,creatininémie
+crp,décimal,mg/L,Protéine C-réactive,crp,CRP,CRP

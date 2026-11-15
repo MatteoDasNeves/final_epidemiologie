@@ -1,0 +1,162 @@
+{
+  "n_total": 10000,
+  "n_analyse": 9009,
+  "taux_rehosp_global_pct": 8.5,
+  "taux_rehosp_cas_complets_pct": 8.5,
+  "n_cas_complets": 5807,
+  "facteurs_binaires": [
+    {
+      "variable": "diabete",
+      "n": 8649,
+      "taux_si_0 (%)": 8.2,
+      "taux_si_1 (%)": 9.9,
+      "odds_ratio": 1.24,
+      "p_value_chi2": 0.0243
+    },
+    {
+      "variable": "hta",
+      "n": 8654,
+      "taux_si_0 (%)": 7.3,
+      "taux_si_1 (%)": 10.4,
+      "odds_ratio": 1.48,
+      "p_value_chi2": 0.0
+    },
+    {
+      "variable": "tabac",
+      "n": 8664,
+      "taux_si_0 (%)": 8.5,
+      "taux_si_1 (%)": 8.3,
+      "odds_ratio": 0.98,
+      "p_value_chi2": 0.8065
+    },
+    {
+      "variable": "reanimation",
+      "n": 8655,
+      "taux_si_0 (%)": 8.2,
+      "taux_si_1 (%)": 9.9,
+      "odds_ratio": 1.24,
+      "p_value_chi2": 0.0875
+    },
+    {
+      "variable": "sexe_h",
+      "n": 8631,
+      "taux_si_0 (%)": 8.4,
+      "taux_si_1 (%)": 8.8,
+      "odds_ratio": 1.06,
+      "p_value_chi2": 0.484
+    }
+  ],
+  "facteurs_continus": [
+    {
+      "variable": "age",
+      "n": 8694,
+      "moyenne_rehosp": 61.3,
+      "moyenne_non_rehosp": 61.8,
+      "p_value_mann_whitney": 0.565
+    },
+    {
+      "variable": "duree_sejour",
+      "n": 8979,
+      "moyenne_rehosp": 5.5,
+      "moyenne_non_rehosp": 5.0,
+      "p_value_mann_whitney": 0.0
+    },
+    {
+      "variable": "imc",
+      "n": 8282,
+      "moyenne_rehosp": 26.1,
+      "moyenne_non_rehosp": 26.7,
+      "p_value_mann_whitney": 0.0122
+    },
+    {
+      "variable": "pas",
+      "n": 8619,
+      "moyenne_rehosp": 136.5,
+      "moyenne_non_rehosp": 135.4,
+      "p_value_mann_whitney": 0.2091
+    },
+    {
+      "variable": "creatinine_umol_l",
+      "n": 8657,
+      "moyenne_rehosp": 93.6,
+      "moyenne_non_rehosp": 92.8,
+      "p_value_mann_whitney": 0.3277
+    },
+    {
+      "variable": "crp",
+      "n": 8631,
+      "moyenne_rehosp": 18.2,
+      "moyenne_non_rehosp": 18.0,
+      "p_value_mann_whitney": 0.9681
+    }
+  ],
+  "taux_par_duree": [
+    {
+      "classe_duree": "<=3j",
+      "n": "2630",
+      "taux": "7.3"
+    },
+    {
+      "classe_duree": "4-7j",
+      "n": "4453",
+      "taux": "8.1"
+    },
+    {
+      "classe_duree": "8-14j",
+      "n": "1754",
+      "taux": "11.0"
+    },
+    {
+      "classe_duree": ">14j",
+      "n": "142",
+      "taux": "12.0"
+    }
+  ],
+  "taux_par_age": [
+    {
+      "classe_age": "18-40",
+      "n": "1011",
+      "taux": "11.0"
+    },
+    {
+      "classe_age": "41-60",
+      "n": "3027",
+      "taux": "7.6"
+    },
+    {
+      "classe_age": "61-75",
+      "n": "2714",
+      "taux": "8.1"
+    },
+    {
+      "classe_age": ">75",
+      "n": "1942",
+      "taux": "8.8"
+    }
+  ],
+  "taux_par_hopital": [
+    {
+      "hopital": "A",
+      "n": 3642,
+      "taux": 8.3
+    },
+    {
+      "hopital": "B",
+      "n": 3142,
+      "taux": 9.0
+    },
+    {
+      "hopital": "C",
+      "n": 2225,
+      "taux": 8.0
+    }
+  ],
+  "qualite": {
+    "poids_unite_corrigee": 40,
+    "durees_completees": 368,
+    "diag_incoherents": 7076,
+    "age_plafonne_95": 342,
+    "poids_plancher_40": 111,
+    "deces_et_rehosp": 17
+  }
+}
